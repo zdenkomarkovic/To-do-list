@@ -36,13 +36,14 @@ ul li {
   margin: 7px auto;
   list-style-type: none;
 }
+ul li:nth-child(even) {
+  background-color: rgb(235, 235, 180);
+}
+
 ul li:hover {
   background-color: rgb(228, 228, 228);
 }
 
-ul li:nth-child(even) {
-  background-color: rgb(235, 235, 180);
-}
 ul li.checked {
   background-color: rgb(155, 149, 149);
   text-decoration: line-through;
