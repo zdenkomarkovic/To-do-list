@@ -81,7 +81,7 @@ ul li.checked {
 }
 @media screen and (max-width: 576px) {
   input {
-   width: 50px;
+   width: 50%;
   }
   ul li {
     padding: 7px 10px;
